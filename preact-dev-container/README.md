@@ -36,21 +36,10 @@ create devocontainer.json
 	"name": "Node.js",
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:16-bullseye",
 
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [8080],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm run dev"
-
-	// Configure tool-specific properties.
-	// "customizations": {},
-
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	"forwardPorts": [8080]
 }
+
 ```
 
-Anzeige -> Befehlspalette => DevContainers:Reopen in Container
+View -> Command Palette => DevContainers:Reopen in Container
