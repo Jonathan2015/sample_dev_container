@@ -18,17 +18,3 @@ To start a production HTTP/2 server:
 Available containers
 * https://hub.docker.com/_/microsoft-vscode-devcontainers
 * https://code.visualstudio.com/docs/devcontainers/create-dev-container
-
-create devocontainer.json
-
-```
-```
-
-Anzeige -> Befehlspalette // 
-
-
-create a Dockerfile
-
-```
-
-```
